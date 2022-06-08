@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\r\n\ @author\ Vanessa\ Chiu\r\n\ @author\ Evan\ Ng\r\n\ @version\ 4\ (11/3/2020)\r\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\r\n\ Create\ 3\ different\ display,\ each\ start\ at\ different\ time.\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ \ How\ the\ user\ can\ control\ the\ time.\ If\ presses\ left\ key,\ the\ time\ will\ \r\n\ \ decrease\ by\ 5.\ If\ user\ presses\ right\ key,\ the\ time\ will\ increase\ by\ 5\r\n
+numComments=3
