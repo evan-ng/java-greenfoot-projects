@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Background
+comment0.text=\r\n\ Code\ for\ Image\ Manipulation\ Array\ Assignment\ built\ upon\ Starter\ code.\r\n\ \r\n\ The\ class\ Processor\ contains\ all\ of\ the\ code\ to\ actually\ perform\r\n\ transformation.\ The\ rest\ of\ the\ classes\ serve\ to\ support\ that\r\n\ capability.\ This\ World\ allows\ the\ user\ to\ choose\ transformations\r\n\ and\ open\ files.\r\n\ \r\n\ @author\ Jordan\ Cohen\r\n\ @author\ Vanessa\ Chiu\r\n\ @author\ Evan\ Ng\r\n\ \r\n\ @version\ June\ 2020\r\n
+comment1.params=
+comment1.target=Background()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Background.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act()\ method\ checks\ for\ mouse\ input\ and\ key\ input\ (z\ and\ y)\r\n
+comment3.params=
+comment3.target=void\ checkMouse()
+comment3.text=\r\n\ Check\ for\ user\ clicking\ on\ a\ button\r\n
+comment4.params=
+comment4.target=void\ openFile()
+comment4.text=\r\n\ Allows\ the\ user\ to\ open\ a\ new\ image\ file.\r\n
+comment5.params=
+comment5.target=boolean\ savePNG()
+comment6.params=
+comment6.target=void\ addBackground()
+numComments=7

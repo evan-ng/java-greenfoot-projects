@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ChangeMenu
+comment0.text=\r\n\ ChangeMenu\ is\ where\ you\ have\ all\ the\ option\ display\ in\ the\ menu\ for\ players\ to\ change\ the\ image.\ \r\n\ Hover\ over\ an\ icon\ first\ to\ choose\ first\ to\ choose\ which\ action\ to\ use\ to\ change\ the\ image.\r\n\ This\ include\ changing\ colour,\ rotation,\ filter,\ redo,\ etc\r\n\ Under\ each\ catogories\ there\ are\ options\ that\ can\ help\ the\ user\ to\ make\ a\ different\ image.\ \r\n\ \r\n\ @author\ Evan\ Ng\r\n\ @author\ Vanessa\ Chiu\r\n\ @version\ 2\ (23/05/2020)\r\n\ \r\n\ Colour\ bucket\ by\ Panda\ Icons\ from\ thenounproject.com.\r\n\ Transform\ by\ The\ Icon\ Z\ from\ thenounproject.com.\r\n\ Sliders\ by\ Emma\ Mitchell\ from\ thenounproject.com.\r\n\ Undo\ by\ M\ Yudi\ Maulana\ from\ thenounproject.com.\r\n\ Overlap\ by\ Gagana\ from\ thenounproject.com.\r\n
+comment1.params=
+comment1.target=ChangeMenu()
+comment1.text=\r\n\ Constructor\ for\ ChangeMenu,\ sets\ all\ values\ to\ defaults.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ buildDisplay()
+comment3.params=
+comment3.target=void\ addIcons()
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act()\ method\ just\ checks\ for\ mouse\ input\r\n
+comment5.params=
+comment5.target=void\ checkMouse()
+comment5.text=\r\n\ Check\ for\ user\ hovering\ over\ an\ icon\r\n
+comment6.params=iconNumber
+comment6.target=void\ dropDown(int)
+comment6.text=\r\n\ Tells\ the\ menu\ that\ the\ given\ icon\ will\ drop\ a\ the\ droplist\ of\ options.\r\n\ \r\n\ @param\ iconNumber\ Which\ icon\ in\ the\ menu\ it\ is\ (0\ is\ the\ top\ icon,\ 4\ is\ the\ bottom)\r\n
+comment7.params=
+comment7.target=void\ addDropDown()
+comment8.params=iconNum\ dropDownNum
+comment8.target=boolean\ getButtonHover(int,\ int)
+comment8.text=\r\n\ Returns\ the\ whether\ a\ mouse\ is\ hovering\ over\ a\ certain\ button.\r\n\ \r\n\ @param\ iconNum\ \ \ \ \ \ \ The\ icon\ in\ the\ menu\ (0\ is\ the\ top\ icon)\r\n\ @param\ dropDownNum\ \ \ the\ number\ of\ additional\ options\ in\ each\ icon\r\n
+numComments=9
