@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Transition
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Transition\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=fadeIn
+comment1.target=Transition(boolean)
+comment1.text=\r\n\ Consturctor\ that\ takes\ one\ boolean\ -\ determines\ whether\ or\ not\r\n\ the\ transition\ fades\ in\ or\ fades\ out\r\n\ \r\n\ @param\ fadeIn\ \ \ \ Whether\ or\ not\ the\ Transition\ fades\ in\ or\ out,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ True\ if\ fades\ in.\ Will\ delete\ itself\ at\ the\ end\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Transition\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

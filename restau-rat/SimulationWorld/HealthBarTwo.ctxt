@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=HealthBarTwo
+comment0.text=\r\n\ HealthBar\ is\ a\ Greenfoot\ Actor\ that\ displays\ an\ image\ displaying\ the\ current\ health\ of\ an\ Actor.\ \r\n\ The\ bar\ is\ green\ when\ the\ Actor\ has\ health\ and\ red\ when\ the\ Actor\ is\ missing\ health.\r\n\ The\ hit\ point\ number\ is\ displayed\ using\ black\ text.\r\n\ <p>\r\n\ Values\ can\ be\ inputed\ in\ the\ constructor\ to\ make\ the\ HealthBar\ customizable\ to\ the\ game\ or\ the\ Actor.\r\n\ Update\ methods\ allows\ the\ HealthBar\ to\ accurately\ represent\ the\ exact\ hit\ points\ of\ the\ Actor\ as\ the\ scenario/game\ progresses;\r\n\ also\ allowing\ for\ color\ customization.\r\n\ \r\n\ \r\n\ @author\ Alex\ Mar\r\n\ @author\ Amy\ Cheung\r\n\ @version\ 1.0.5\ March\ 10,\ 2020\r\n
+comment1.params=
+comment1.target=HealthBarTwo()
+comment1.text=\r\n\ Main\ constructor\ -\ this\ is\ only\ called\ by\ the\ other\ Constructor\r\n\ and\ is\ not\ intended\ to\ be\ called\ directly.\r\n
+comment2.params=inMaxHP\ inCurHP
+comment2.target=HealthBarTwo(int,\ int)
+comment2.text=\r\n\ Takes\ two\ values\ for\ current\ and\ max\ hit\ points,\ allows\ actor\ to\ have\ a\ hit\ point\ value\ that\ is\ not\ the\ max\ HP\r\n\ \r\n\ @param\ inMaxHP\ \ \ \ \ \ \ New\ max\ hit\ points\r\n\ @param\ inCurHP\ \ \ \ \ \ \ New\ current\ hit\ points\r\n
+comment3.params=inMaxHP
+comment3.target=HealthBarTwo(int)
+comment3.text=\r\n\ Takes\ one\ int\ and\ sets\ max\ hit\ points\ and\ current\ hit\ points\ to\ the\ same\ value\r\n\ \r\n\ @param\ inMaxHP\ \ \ \ \ \ \ New\ max\ hit\ points\r\n
+comment4.params=inMaxHP\ target
+comment4.target=HealthBarTwo(int,\ greenfoot.Actor)
+comment4.text=\r\n\ Takes\ one\ int\ and\ set\ max\ hit\ points\ and\ current\ hit\ points\ to\ the\ same\ value\r\n\ <p>\r\n\ Assigns\ a\ health\ bar\ that\ follows\ an\ actor\r\n\ <p>\r\n\ If\ actor\ is\ no\ longer\ in\ the\ world,\ the\ health\ bar\ will\ also\ be\ removed\r\n\ \r\n\ @param\ inMaxHP\ \ \ \ \ \ \ New\ max\ hit\ points\r\n\ @param\ target\ \ \ \ \ \ \ \ An\ actor\ that\ the\ health\ bar\ will\ be\ assigned\ to\r\n
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\r\n\ Act\ -\ do\ whatever\ the\ HealthBar\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment6.params=newCurHP\ newMaxHP
+comment6.target=void\ update(int,\ int)
+comment6.text=\r\n\ Changes\ the\ color\ of\ the\ health\ bar.\r\n\ \r\n\ @param\ newCurHP\ \ \ \ \ \ New\ current\ hit\ points\r\n\ @param\ newMaxHP\ \ \ \ \ \ New\ max\ hit\ points\r\n
+comment7.params=newCurHP
+comment7.target=void\ update(int)
+comment7.text=\r\n\ Updates\ health\ bar\ to\ accurately\ represent\ the\ current\ hit\ points\ of\ the\ Actor\ as\ the\ scenario/game\ progresses.\r\n\ \r\n\ @param\ newCurHP\ \ \ \ \ \ New\ current\ hit\ points\r\n
+numComments=8

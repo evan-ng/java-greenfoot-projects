@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\n\ Button\ is\ a\ simple\ Greenfoot\ Actor\ that\ displays\ a\ line\ of\ text\n\ in\ a\ rectangular\ display\ which\ can\ have\ rounded\ corners.\n\ \n\ @author\ Evan\ Ng\n\ @version\ 2\ (23/04/2020)\n
+comment1.params=
+comment1.target=Button()
+comment1.text=\n\ Main\ constructor\ -\ sets\ all\ the\ variables\ to\ default\ values.\n\ This\ is\ mostly\ used\ for\ testing\ purposes.\n
+comment2.params=width\ height\ cornerRadius\ borderThickness\ fontSize\ backColor\ borderColor
+comment2.target=Button(int,\ int,\ int,\ int,\ int,\ greenfoot.Color,\ greenfoot.Color)
+comment2.text=\n\ Constructor\ that\ takes\ five\ ints\ and\ two\ Colors\ -\ for\ adjusting\ size\ and\ colors\ of\ \n\ the\ display\:\ width\ and\ height\ of\ the\ display,\ the\ border,\ and\ font\ size.\n\ \n\ @param\ width\ \ \ \ \ \ \ \ \ \ \ \ \ Width\ of\ display\n\ @param\ height\ \ \ \ \ \ \ \ \ \ \ \ Height\ of\ display\n\ @param\ cornerRadius\ \ \ \ \ \ Radius\ of\ curve\ on\ the\ corners\n\ @param\ borderThickness\ \ \ Width\ of\ border\n\ @param\ fontSize\ \ \ \ \ \ \ \ \ \ Size\ of\ the\ text\n\ @param\ backColor\ \ \ \ \ \ \ \ \ Color\ of\ background\n\ @param\ borderColor\ \ \ \ \ \ \ Color\ of\ border\n
+comment3.params=width\ height
+comment3.target=void\ buildDisplay(int,\ int)
+comment4.params=width\ height
+comment4.target=void\ buildBorder(int,\ int)
+comment5.params=
+comment5.target=void\ addText()
+comment6.params=text
+comment6.target=void\ setText(java.lang.String)
+comment6.text=\n\ Sets\ the\ text.\ The\ text\ will\ be\ displayed\ as\ a\ single\ line.\n\ <br>\n\ In\ order\ to\ center\ the\ text,\ add\ spaces\ to\ the\ string.\n\ Add\ spaces\ to\ the\ front\ of\ the\ text\ if\ the\ text\ is\ displayed\ too\ far\ the\ left\ and\n\ vice\ versa\ if\ it\ is\ displayed\ too\ far\ to\ the\ right.\n\ <br>\n\ Ex\:\ popUp.setText("TEXT\ WORDS\ \ \ \ \ \ \ \ ");\n\ <br>\n\ Note\:\ Text\ cannot\ be\ centered\ automatically\ because\ Greenfoot\ cannot\ accurately\n\ determine\ the\ widths\ of\ texts\ (especially\ when\ using\ different\ fonts).\n\ \n\ @param\ text\ String\ that\ will\ be\ displayed\ at\ the\ top\ of\ the\ pop\ up\n
+comment7.params=width\ height\ cornerRadius\ borderThickness\ fontSize\ backColor\ borderColor
+comment7.target=void\ update(int,\ int,\ int,\ int,\ int,\ greenfoot.Color,\ greenfoot.Color)
+comment7.text=\n\ Updates\ the\ size\ and\ colors\ of\ the\ display\n\ \n\ @param\ width\ \ \ \ \ \ \ \ \ \ \ \ \ Width\ of\ display\n\ @param\ height\ \ \ \ \ \ \ \ \ \ \ \ Height\ of\ display\n\ @param\ cornerRadius\ \ \ \ \ \ Radius\ of\ curve\ on\ the\ corners\n\ @param\ borderThickness\ \ \ Width\ of\ border\n\ @param\ fontSize\ \ \ \ \ \ \ \ \ \ Size\ of\ the\ font\n\ @param\ backColor\ \ \ \ \ \ \ \ \ Color\ of\ background\n\ @param\ borderColor\ \ \ \ \ \ \ Color\ of\ border\n
+numComments=8

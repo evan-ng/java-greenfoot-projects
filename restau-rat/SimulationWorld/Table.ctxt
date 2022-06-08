@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Table
+comment0.text=\r\n\ A\ table\ with\ seats\ around\ it.\r\n\ \r\n\ @author\ Raymond\ \r\n\ @version\ 2\ (14/05/2020)\r\n
+comment1.params=startX\ startY
+comment1.target=Table(int,\ int)
+comment1.text=\r\n\ A\ constructor\ that\ takes\ two\ ints\ -\ determines\ where\r\n\ the\ table\ and\ seats\ will\ be.\r\n\ \r\n\ @param\ startX\ \ \ \ X\ position\ of\ table\r\n\ @param\ startY\ \ \ \ Y\ position\ of\ table\r\n
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\r\n\ Adds\ Seats\ to\ the\ World\r\n\ \r\n\ @param\ w\ The\ World\ Table\ is\ in.\r\n
+comment3.params=
+comment3.target=void\ createSeats()
+comment4.params=
+comment4.target=void\ createSeats1()
+comment5.params=seatNum
+comment5.target=Seat\ getSeat(int)
+comment5.text=\r\n\ Returns\ the\ Seat\ of\ the\ given\ seat\ number.\r\n\ \r\n\ @param\ seatNum\ \ \ Seat\ number\ of\ the\ desired\ Seat\r\n\ @return\ Seat\ \ \ \ \ Seat\ of\ the\ seat\ number\r\n
+comment6.params=seatNum
+comment6.target=boolean\ getSeatStatus(int)
+comment6.text=\r\n\ Returns\ the\ status\ of\ the\ seat\ of\ the\ given\ seat\ number.\r\n\ \r\n\ @param\ seatNum\ \ \ Seat\ number\ of\ the\ desired\ Seat\r\n\ @return\ boolean\ \ Status\ of\ the\ Seat,\ true\ if\ a\ customer\ has\ taken\ the\ Seat\r\n
+comment7.params=seatNum\ isTaken
+comment7.target=void\ setSeatStatus(int,\ boolean)
+comment7.text=\r\n\ Determines\ whether\ or\ not\ Seat\ is\ taken\ by\ a\ Client\r\n\ \r\n\ @param\ seatNum\ \ \ Seat\ number\ of\ the\ desired\ Seat\r\n\ @param\ isTaken\ \ \ Whether\ or\ not\ Seat\ is\ taken\ by\ a\ Client,\ true\ if\ is\ taken.\r\n
+comment8.params=
+comment8.target=int\ getNumSeats()
+comment8.text=\r\n\ Returns\ the\ number\ of\ seats\ that\ are\ on\ the\ table\r\n\ \r\n\ \r\n
+numComments=9

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=EndWorld
+comment0.text=\r\n\ This\ is\ the\ end\ world,\ which\ appears\ at\ the\ end\ of\ the\ simulation.\r\n\ This\ will\ display\ a\ score\ that\ is\ calculated\ based\ on\ the\ starting\r\n\ and\ current\ funds\ as\ well\ as\ the\ star\ rating.\ Sounds\ from\ https\://tabletopaudio.com.\r\n\ \r\n\ @author\ Amy\ Cheung\r\n\ @author\ Alex\ Mar\r\n\ @author\ Evan\ Ng\r\n\ @author\ Raymond\ Zhang\r\n\ @version\ 2\ (14/05/2020)\r\n
+comment1.params=startingFunds\ currentFunds\ starRating
+comment1.target=EndWorld(int,\ int,\ double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ EndWorld.\ Takes\ two\ ints\ and\r\n\ one\ double\ (\ the\ starting\ and\ current\ funds,\ and\ star\ rating\ in\r\n\ order\ to\ calculate\ the\ score.\r\n\ \r\n\ @param\ startingFunds\ \ \ \ \ Money\ at\ the\ start\ of\ the\ simulation\r\n\ @param\ currentFunds\ \ \ \ \ \ Money\ at\ the\ end\ of\ the\ simulation\r\n\ @param\ starRating\ \ \ \ \ \ \ \ Star\ rating\ at\ the\ end\ of\ the\ simulation\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ PopUp\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ addButtons()
+comment4.params=
+comment4.target=void\ addBackground()
+comment5.params=
+comment5.target=void\ startStartWorld()
+numComments=6

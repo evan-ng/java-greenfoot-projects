@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=StartWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ StartWorld\ here.\r\n\ (This\ is\ where\ there\ is\ a\ start\ button\ and\ a\ help/tutorial\ button.)\r\n\ \r\n\ \r\n\ @author\ Amy\ Cheung\r\n\ @author\ Alex\ Mar\r\n\ @author\ Evan\ Ng\r\n\ @author\ Raymond\ Zhang\r\n\ @version\ 1\ (11/04/2020)\r\n
+comment1.params=
+comment1.target=StartWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ StartWorld.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ StartWorld\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ addBackground()
+comment4.params=
+comment4.target=void\ addButtons()
+comment5.params=
+comment5.target=void\ addPopUp()
+comment6.params=
+comment6.target=void\ changeText()
+comment7.params=
+comment7.target=void\ setTexts()
+comment8.params=
+comment8.target=void\ startPointsWorld()
+numComments=9

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=DotCarousel
+comment0.text=\r\n\ DotCarousel\ is\ a\ Greenfoot\ Actor\ used\ in\ the\ class\ PopUp.\r\n\ This\ is\ set\ of\ dots\ that\ are\ used\ to\ indicate\ which\ slide\r\n\ the\ user\ is\ on.\ These\ slides\ are\ represented\ by\ dots.\r\n\ <br>\r\n\ The\ slide\ the\ user\ is\ on\ will\ be\ represented\ by\ a\ highlighted\r\n\ dot\ while\ the\ other\ dots\ are\ more\ transparent.\ The\ highlighted\r\n\ dot\ can\ be\ changed.\r\n\ \r\n\ @author\ Evan\ Ng\r\n\ @version\ 1\ (12/04/2020)\r\n
+comment1.params=
+comment1.target=DotCarousel()
+comment1.text=\r\n\ Main\ constructor\ -\ sets\ all\ the\ variables\ to\ default\ values.\r\n
+comment2.params=numberOfSlides\ currentSlide
+comment2.target=DotCarousel(int,\ int)
+comment2.text=\r\n\ Constructor\ that\ takes\ two\ ints\ -\ for\ setting\ the\ number\ of\ dots\ (slides)\r\n\ and\ the\ slide\ currently\ displayed.\r\n\ \r\n\ @param\ numberOfSlides\ \ \ \ Number\ of\ dots\r\n\ @param\ currentSlide\ \ \ \ \ \ Which\ dot\ is\ highlighted\r\n
+comment3.params=numberOfSlides\ currentSlide\ dotDiameter\ borderWidth
+comment3.target=DotCarousel(int,\ int,\ int,\ int)
+comment3.text=\r\n\ Constructor\ that\ takes\ four\ ints\ -\ for\ setting\ the\ number\ of\ dots\ (slides),\r\n\ the\ slide\ currently\ displayed\ and\ the\ size\ of\ the\ dots.\r\n\ \r\n\ @param\ numberOfSlides\ \ \ \ Number\ of\ dots\r\n\ @param\ currentSlide\ \ \ \ \ \ Which\ dot\ is\ highlighted\r\n\ @param\ dotDiameter\ \ \ \ \ \ \ Diameter\ of\ the\ dot\r\n\ @param\ borderWidth\ \ \ \ \ \ \ Width\ of\ border\ on\ dot\r\n
+comment4.params=width\ height
+comment4.target=void\ buildDisplay(int,\ int)
+comment5.params=width\ height
+comment5.target=void\ buildBorder(int,\ int)
+comment6.params=currentSlide
+comment6.target=void\ setCurrentSlide(int)
+comment6.text=\r\n\ Adjusts\ the\ highlighted\ dot.\ Must\ be\ greater\ than\ 0\ and\ less\ than\ or\ equal\r\n\ to\ the\ number\ of\ slides.\r\n\ \r\n\ @param\ currentSlide\ \ \ \ \ \ Which\ dot\ is\ highlighted\r\n
+numComments=7

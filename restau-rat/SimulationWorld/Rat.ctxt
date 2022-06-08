@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Rat
+comment0.text=\r\n\ Rat\ appears\ during\ the\ simulation\ to\ steal\ food,\ and\ prevent\ the\ restaurant\r\n\ from\ becoming\ popular\ and\ famous.\ Alex\ did\ day\ time\ behaviours,\ Evan\ did\ night\ time.\r\n\ \r\n\ \r\n\ @author\ Alex\ Mar\r\n\ @version\ April\ 24,\ 2020\r\n
+comment1.params=
+comment1.target=Rat()
+comment1.text=\r\n\ Main\ constructor\ -\ sets\ all\ the\ variables\ to\ default\ values.\r\n\ This\ rat\ will\ move\ randomly\ within\ certain\ limits.\r\n
+comment2.params=thief
+comment2.target=Rat(boolean)
+comment2.text=\r\n\ This\ constructor\ determines\ wheter\ or\ not\ the\ rat\ will\ move\r\n\ randomly\ or\ if\ the\ rat\ will\ move\ along\ a\ determined\ path.\r\n\ \r\n\ @param\ thief\ When\ true,\ the\ rat\ will\ go\ into\ thief\ mode\ and\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ follow\ a\ determined\ path,\ ultimately\ stealing\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ food.\ When\ false,\ the\ rat\ will\ simply\ move\ randomly\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Rat\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ followPath()
+comment5.params=
+comment5.target=void\ changeFace()
+comment6.params=
+comment6.target=void\ avoidTable()
+comment7.params=
+comment7.target=void\ shrinkUntilDelete()
+comment7.text=\r\n\ When\ Rat\ dies,\ Rat\ will\ shrink\ until\ it\ reaches\ 1\ pixel\ wide\ and\ 1\ pixel\ tall.\r\n\ It\ then\ removes\ itself.\r\n\ The\ bigger\ shrinkSpeed\ is,\ the\ faster\ Rat\ will\ shrink.\ However,\ shrinkSpeed\ \r\n\ must\ be\ greater\ than\ 1.\r\n
+comment8.params=
+comment8.target=void\ die()
+comment8.text=\r\n\ Rat\ will\ start\ dying.\ It\ stops\ moving,\ shrinks,\ and\ deletes\ itself.\ Before\r\n\ shrinking,\ it\ grows\ to\ 1.5\ times\ its\ size\ for\ an\ instant\ for\ a\ nicer\ death\r\n\ animation\ (using\ a\ fundamental\ animation\ principle\:\ "anticipation").\r\n
+numComments=9

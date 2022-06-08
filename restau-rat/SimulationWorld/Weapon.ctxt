@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Weapon
+comment0.text=\r\n\ Weapon\ will\ hone\ on\ a\ given\ target\ Pest.\ Once\ hit,\r\n\ both\ the\ pest\ and\ Weapon\ will\ be\ removed\ from\ the\ World.\r\n\ Will\ delete\ itself\ if\ Pest\ is\ removed\ before\ Weapon\ hits\ it.\r\n\ \r\n\ @author\ Evan\ Ng\r\n\ @version\ 1\ (12/05/2020)\r\n
+comment1.params=target
+comment1.target=Weapon(Pest)
+comment1.text=\r\n\ Consturctor\ that\ takes\ one\ Pest.\ This\ pest\ will\ be\ the\ target\ in\ which\r\n\ the\ weapon\ will\ hone\ in\ on\ and\ attack.\r\n\ \r\n\ @param\ target\ \ \ \ Pest\ that\ Weapon\ will\ attack\ and\ kill.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Weapon\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ killPest()
+numComments=4

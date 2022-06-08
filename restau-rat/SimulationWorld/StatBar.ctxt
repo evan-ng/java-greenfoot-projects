@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=StatBar
+comment0.text=\r\n\ StatBar\ is\ the\ stat\ bar\ that\ displays\ the\ time,\ day,\r\n\ current\ funds,\ food\ supply,\ number\ of\ customers,\ and\ pests.\r\n\ \r\n\ @author\ Evan\ Ng\r\n\ @version\ 1\ (28/04/2020)\r\n
+comment1.params=
+comment1.target=StatBar()
+comment1.text=\r\n\ Main\ constructor\ -\ sets\ all\ variables\ to\ default\ values.\r\n
+comment2.params=time\ day\ currentFunds\ foodSupply\ numberOfCustomers\ rating
+comment2.target=StatBar(int,\ int,\ int,\ int,\ int,\ double)
+comment2.text=\r\n\ Constructor\ that\ takes\ six\ ints\ -\ use\ to\ adjust\ variables\ from\ the\ start\r\n\ \r\n\ @param\ time\ \ \ \ \ \ \ \ \ \ \ \ \ \ Time\ now\r\n\ @param\ day\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Current\ day\r\n\ @param\ currentFunds\ \ \ \ \ \ Current\ funds\ of\ restaurant\r\n\ @param\ foodSupply\ \ \ \ \ \ \ \ Current\ food\ supply\ in\ percentage\r\n\ @param\ numberOfCustomers\ Current\ number\ of\ customers\ in\ restaurant\r\n\ @param\ rating\ \ \ \ \ \ \ \ \ \ \ \ \ Current\ rating\ of\ restaurant\r\n
+comment3.params=
+comment3.target=void\ buildDisplay()
+comment4.params=
+comment4.target=void\ buildTextArea()
+comment5.params=
+comment5.target=void\ addText()
+comment6.params=
+comment6.target=void\ addIcons()
+comment7.params=time\ day\ currentFunds\ foodSupply\ numberOfCustomers\ rating
+comment7.target=void\ update(int,\ int,\ int,\ int,\ int,\ double)
+comment7.text=\r\n\ Updates\ the\ visuals\ based\ on\ the\ given\ variables\r\n\ \r\n\ @param\ time\ \ \ \ \ \ \ \ \ \ \ \ \ \ Time\ now\r\n\ @param\ day\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Current\ day\r\n\ @param\ currentFunds\ \ \ \ \ \ Current\ funds\ of\ restaurant\r\n\ @param\ foodSupply\ \ \ \ \ \ \ \ Current\ food\ supply\ in\ percentage\r\n\ @param\ numberOfCustomers\ Current\ number\ of\ customers\ in\ restaurant\r\n\ @param\ rating\ \ \ \ \ \ \ \ \ \ \ \ Current\ rating\ of\ restaurant\r\n
+comment8.params=
+comment8.target=void\ act()
+numComments=9

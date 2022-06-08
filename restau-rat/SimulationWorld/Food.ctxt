@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Food
+comment0.text=\r\n\ This\ is\ simply\ an\ image\ of\ a\ food\ item.\ The\ size\r\n\ of\ the\ image\ may\ be\ changed.\ Images\ from\ https\://hotemoji.com.\r\n\ \r\n\ @author\ Evan\ Ng\r\n\ @version\ 1\ (13/05/20)\r\n
+comment1.params=
+comment1.target=Food()
+comment1.text=\r\n\ Main\ constructor\ -\ sets\ all\ the\ variables\ to\ default\ values.\r\n\ This\ is\ simply\ an\ image\ of\ a\ random\ food\ item.\r\n
+comment2.params=imageWidth
+comment2.target=Food(int)
+comment2.text=\r\n\ Constructor\ that\ takes\ one\ int\ -\ this\ will\ change\ the\ size\r\n\ of\ the\ image\ based\ on\ the\ given\ int.\r\n
+comment3.params=
+comment3.target=void\ selectImage()
+numComments=4

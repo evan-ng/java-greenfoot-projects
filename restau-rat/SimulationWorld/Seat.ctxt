@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Seat
+comment0.text=\r\n\ Seat\ is\ where\ a\ customer\ will\ sit.\r\n\ \r\n\ @author\ Raymond\ \r\n\ @version\ 3\ (14/05/2020)\r\n
+comment1.params=x\ y\ seatNumber
+comment1.target=Seat(int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ that\ takes\ three\ ints.\ Determines\ where\r\n\ the\ seat\ is\ and\ what\ number\ it\ is.\r\n\ \r\n\ @param\ x\ \ \ \ \ \ \ \ \ \ \ \ \ X\ position\ of\ Seat\r\n\ @param\ y\ \ \ \ \ \ \ \ \ \ \ \ \ Y\ position\ of\ Seat\r\n\ @param\ seatNumber\ \ \ \ Which\ seat\ number\ this\ seat\ is\r\n
+comment2.params=w
+comment2.target=void\ addToWorld(greenfoot.World)
+comment2.text=\r\n\ Adds\ this\ seat\ to\ World\r\n\ \r\n\ @param\ w\ The\ world\ Seat\ will\ be\ added\ to.\r\n
+comment3.params=
+comment3.target=int\ getSeatNumber()
+comment3.text=\r\n\ Returns\ the\ seat\ number\r\n\ \r\n\ @return\ int\ Seat\ number\ of\ Seat\r\n
+comment4.params=isTaken
+comment4.target=void\ setIsTaken(boolean)
+comment4.text=\r\n\ Determines\ whether\ or\ not\ Seat\ is\ taken\ by\ a\ Client\r\n\ \r\n\ @param\ isTaken\ \ \ Whether\ or\ not\ Seat\ is\ taken\ by\ a\ Client,\ true\ if\ is\ taken.\r\n
+comment5.params=
+comment5.target=boolean\ getIsTaken()
+comment5.text=\r\n\ Returns\ whether\ or\ not\ Seat\ is\ taken\ by\ a\ Client\r\n\ \r\n\ @return\ boolean\ \ Whether\ or\ not\ Seat\ is\ taken\ by\ a\ Client,\ true\ if\ is\ taken.\r\n
+numComments=6

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Arrow
+comment0.text=\r\n\ Arrow\ is\ a\ simple\ Greenfoot\ Actor\ used\ in\ the\ class\ PopUp\r\n\ It\ displays\ a\ triangle\ that\ points\ up,\ down,\ left,\ or\ right.\r\n\ \r\n\ @author\ Evan\ Ng\r\n\ @version\ 2\ (15/04/2020)\r\n
+comment1.params=
+comment1.target=Arrow()
+comment1.text=\r\n\ Main\ constructor\ -\ sets\ all\ the\ variables\ to\ default\ values.\r\n\ Mainly\ for\ testing\ purposes\r\n
+comment2.params=width\ height\ borderWidth\ orientation
+comment2.target=Arrow(int,\ int,\ int,\ int)
+comment2.text=\r\n\ Constructor\ that\ takes\ four\ ints\ -\ sets\ the\ dimensions\ of\ the\ arrow,\ \r\n\ the\ border,\ and\ the\ direction\ it\ points.\r\n\ \r\n\ @param\ width\ \ \ \ \ \ \ \ \ Length\ of\ base\ of\ arrow\r\n\ @param\ height\ \ \ \ \ \ \ \ Height\ of\ arrow,\ distance\ from\ base\ to\ tip\ of\ arrow\r\n\ @param\ borderWidth\ \ \ Thickness\ of\ border\r\n\ @param\ orientation\ \ \ Direction\ arrow\ points,\ 0\ \=\ down,\ 1\ \=\ left,\ 2\ \=\ up,\ 3\ \=\ right\r\n
+comment3.params=width\ height
+comment3.target=void\ buildDisplay(int,\ int)
+comment4.params=width\ height
+comment4.target=void\ buildBorder(int,\ int)
+comment5.params=
+comment5.target=void\ changeOrientation()
+comment6.params=transparency
+comment6.target=void\ setTransparency(int)
+comment6.text=\r\n\ Sets\ the\ transparency\ of\ the\ image.\r\n\ \r\n\ @param\ transparency\ Transparency\ of\ the\ image.\ A\ value\ in\ the\ range\ 0\ to\ 255.\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 0\ is\ completely\ transparent\ and\ 255\ is\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ completely\ opaque.\r\n
+numComments=7

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CloseButton
+comment0.text=\n\ CloseButton\ is\ a\ Greenfoot\ Actor\ used\ in\ the\ class\ PopUp.\n\ This\ is\ just\ a\ simple\ X.\n\ \n\ @author\ Evan\ Ng\n\ @version\ 1\ (11/04/2020)\n
+comment1.params=
+comment1.target=CloseButton()
+comment1.text=\n\ Main\ constructor\ -\ sets\ all\ the\ variables\ to\ default\ values.\n
+comment2.params=width\ height
+comment2.target=void\ buildDisplay(int,\ int)
+comment3.params=width\ height
+comment3.target=void\ buildBorder(int,\ int)
+numComments=4

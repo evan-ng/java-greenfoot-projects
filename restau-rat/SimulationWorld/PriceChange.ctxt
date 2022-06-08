@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PriceChange
+comment0.text=\r\n\ Price\ change\ will\ show\ how\ much\ a\ price\ has\ changed.\r\n\ It\ will\ move\ upwards\ slowly,\ while\ slowly\ growing\ more\r\n\ transparent,\ and\ delete\ itself\ at\ the\ end.\r\n\ \r\n\ @author\ Evan\ Ng\r\n\ @version\ 1\ (07/05/2020)\r\n
+comment1.params=money\ positive
+comment1.target=PriceChange(int,\ boolean)
+comment1.text=\r\n\ Constructor\ that\ takes\ one\ int\ and\ one\ boolean.\r\n\ Determines\ what\ is\ displayed\ in\ the\ text.\r\n\ \r\n\ @param\ money\ \ \ \ \ How\ much\ money\ is\ lost\ or\ gained.\r\n\ @param\ positive\ \ Determines\ if\ there\ is\ a\ positive\ or\ negative\ sign\ in\ front\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ of\ the\ text,\ true\ if\ positive\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ PriceChange\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

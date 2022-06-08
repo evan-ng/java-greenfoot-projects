@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Customer
+comment0.text=\r\n\ Customer\ is\ a\ subclass\ of\ Client.\ Customer\ will\ appear\ in\ one\ of\ four\r\n\ images.\ After\ eating,\ Customer\ will\ pay\ the\ restaurant.\ Images\ from\ https\://iconscout.com.\r\n\ \r\n\ @author\ Raymond\ Zhang\r\n\ @version\ 3\ (14/05/2020)\r\n
+comment1.params=patience\ eatSpeed
+comment1.target=Customer(int,\ int)
+comment1.text=\r\n\ Constructor\ that\ takes\ two\ ints\ -\ How\ long\ a\ critic\r\n\ can\ wait\ and\ how\ fast\ they\ can\ eat\r\n\ \r\n\ @param\ patience\ \ \ \ \ How\ long\ Critic\ can\ wait\ for\ food\ to\ arrive\r\n\ @param\ eatSpeed\ \ \ \ \ How\ fast\ Critic\ can\ eat\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ finishMeal()
+comment3.text=\r\n\ Customer\ will\ pay\ for\ their\ meal\ once\ they\ finish\ it.\r\n
+numComments=4

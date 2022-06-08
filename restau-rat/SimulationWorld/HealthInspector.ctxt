@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=HealthInspector
+comment0.text=\r\n\ Health\ Inspector\ will\ enter\ the\ restaurant\ and\ linger\ for\ a\ while.\r\n\ During\ this\ time,\ Health\ Inspector\ will\ fine\ the\ resturant\ if\ they\ see\r\n\ a\ pest\ and\ may\ reduce\ the\ star\ rating.\ When\ Health\ Inspector\ spots\ a\r\n\ rat,\ they\ will\ immediately\ leave,\ fine,\ and\ reduce\ star\ rating\ by\ 1.0.\r\n\ Amy\ completed\ the\ majority\ of\ this\ class.\ Evan\ made\ minor\ adjustments.\r\n\ \r\n\ \r\n\ @author\ Amy\ Cheung\r\n\ @version\ 3\ (12/05/2020)\r\n
+comment1.params=rating
+comment1.target=HealthInspector(int)
+comment1.text=\r\n\ Constructor\ that\ takes\ one\ int\ -\ Will\ determine\r\n\ how\ lenient/strict\ the\ HealthInspector\ will\ be.\r\n\ \r\n\ @param\ rating\ \ \ \ How\ many\ pests\ HealthInspetor\ can\ take.\r\n
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\r\n\ Adds\ and\ updates\ the\ ratingBar.\r\n\ \r\n\ @param\ w\ The\ world\ HealthInspector\ is\ in.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ HealthInspector\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ walkAround()
+comment5.params=
+comment5.target=void\ findPests()
+comment5.text=\r\n\ Gets\ total\ amount\ of\ Pests\ and\ decreases\ rating\ and\ funds\ accordingly\r\n
+comment6.params=deduction
+comment6.target=void\ setStar(double)
+comment7.params=
+comment7.target=void\ exit()
+comment7.text=\r\n\ Will\ have\ the\ HealthInspector\ complete\ their\ inspection\r\n\ once\ this\ method\ is\ called.\r\n
+numComments=8
